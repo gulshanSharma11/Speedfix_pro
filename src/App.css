@@ -1,1 +1,53 @@
-@import "tailwindcss";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap');
+:root {
+    color-scheme:light;
+    --bg-color: #ffffff;
+    --border-color: #1C2430;
+    --text-color: #1C2430;
+    --btn-bg-color:#4B87FE;
+    --link-color:#4B87FE;
+    --btn-hover-color:#FF7373;
+    --card-color:#3ED0AD;
+--dark-mode-bg-color: #1C2430;
+ 
+  --font-family: "Roboto", sans-serif;
+  
+  
+  --font-size-base: 16px;
+  --font-size-lg: 20px;
+  --font-size-sm: 14px;
+  
+
+
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-bold: 700;
+  --font-black: 900;
+  }
+
+  
+  [data-theme="dark"] {
+    color-scheme:dark;
+    --bg-color: #1C2430;
+    --border-color: #ffffff;
+    --text-color: #ffffff;
+    --btn-bg-color:#ffffff;
+    --btn-text-color:#4B87FE;
+    --card-color:#3ED0AD;
+    --link-color:#4B87FE;
+    --dark-mode-bg-color: #ffffff;
+  }
+  
+  body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: all 0.3s ease-in-out;
+  }
+
+
